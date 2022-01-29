@@ -1,5 +1,8 @@
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import com.github.javafaker.Faker;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
@@ -18,6 +21,8 @@ public class TestTextBox extends TestBase {
         String userEmail = faker.internet().emailAddress();
         String currentAddress = faker.address().streetAddress();
         String permanentAddress = faker.address().streetAddress();
+
+        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем страницу", () ->
                 open("https://demoqa.com/text-box"));
