@@ -1,9 +1,11 @@
+package tests;
+
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import com.github.javafaker.Faker;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
+import tests.TestBase;
 
 import java.util.Locale;
 
@@ -11,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-public class TestTextBox extends TestBase {
+ public class TestTextBox extends TestBase {
 
 
     @Test
