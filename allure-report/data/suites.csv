@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 12 17:30:05 MSK 2022","Sat Feb 12 17:30:21 MSK 2022","15120","","tests.TestTextBox","","tests.TestTextBox","fillTextBox","fillTextBox()",""

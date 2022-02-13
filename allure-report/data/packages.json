@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.TestTextBox",
+    "children" : [ {
+      "name" : "fillTextBox",
+      "uid" : "91fff8f285e130b8",
+      "parentUid" : "14b1d92880e71d023b06e55dbe7fb5a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644676205993,
+        "stop" : 1644676221113,
+        "duration" : 15120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.TestTextBox"
+  } ]
+}

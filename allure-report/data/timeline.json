@@ -1,0 +1,72 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-CD72V80",
+    "children" : [ {
+      "name" : "2060@DESKTOP-CD72V80.Test worker(15)",
+      "children" : [ {
+        "name" : "fillTextBox()",
+        "uid" : "91fff8f285e130b8",
+        "parentUid" : "678584d3880d159cc2be67a976f50695",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644676205993,
+          "stop" : 1644676221113,
+          "duration" : 15120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "678584d3880d159cc2be67a976f50695"
+    }, {
+      "name" : "7692@DESKTOP-CD72V80.Test worker(15)",
+      "children" : [ {
+        "name" : "fillTextBox()",
+        "uid" : "d271dbef2d91d417",
+        "parentUid" : "0d62006375655a81e0420ebbdd30939e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644675856817,
+          "stop" : 1644675870133,
+          "duration" : 13316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d62006375655a81e0420ebbdd30939e"
+    }, {
+      "name" : "13664@DESKTOP-CD72V80.Test worker(18)",
+      "children" : [ {
+        "name" : "fillTextBox()",
+        "uid" : "10bf8cd2c1333d97",
+        "parentUid" : "9b5ab73301581cb27f295b0f245227e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644675775701,
+          "stop" : 1644675790298,
+          "duration" : 14597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b5ab73301581cb27f295b0f245227e4"
+    } ],
+    "uid" : "10494cdbac3717cc52c3941b028b7844"
+  } ]
+}

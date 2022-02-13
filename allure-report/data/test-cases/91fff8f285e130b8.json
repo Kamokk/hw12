@@ -1,0 +1,567 @@
+{
+  "uid" : "91fff8f285e130b8",
+  "name" : "fillTextBox()",
+  "fullName" : "tests.TestTextBox.fillTextBox",
+  "historyId" : "eef52fbe5375e0e349054df61d7c0763",
+  "time" : {
+    "start" : 1644676205993,
+    "stop" : 1644676221113,
+    "duration" : 15120
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем страницу",
+      "time" : {
+        "start" : 1644676206589,
+        "stop" : 1644676216122,
+        "duration" : 9533
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://demoqa.com/text-box",
+        "time" : {
+          "start" : 1644676206684,
+          "stop" : 1644676216122,
+          "duration" : 9438
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"open\") https://demoqa.com/text-box",
+          "time" : {
+            "start" : 1644676206684,
+            "stop" : 1644676216122,
+            "duration" : 9438
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполняем поле Full Name",
+      "time" : {
+        "start" : 1644676216122,
+        "stop" : 1644676216808,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userName\") set value(Ismael)",
+        "time" : {
+          "start" : 1644676216175,
+          "stop" : 1644676216808,
+          "duration" : 633
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#userName\") set value(Ismael)",
+          "time" : {
+            "start" : 1644676216176,
+            "stop" : 1644676216808,
+            "duration" : 632
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполняем поле Email",
+      "time" : {
+        "start" : 1644676216808,
+        "stop" : 1644676217315,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#userEmail\") set value(marc.huels@gmail.com)",
+        "time" : {
+          "start" : 1644676216808,
+          "stop" : 1644676217315,
+          "duration" : 507
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#userEmail\") set value(marc.huels@gmail.com)",
+          "time" : {
+            "start" : 1644676216809,
+            "stop" : 1644676217315,
+            "duration" : 506
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполняем поле Current Address",
+      "time" : {
+        "start" : 1644676217315,
+        "stop" : 1644676217809,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#currentAddress\") set value(50324 Margarito Path)",
+        "time" : {
+          "start" : 1644676217315,
+          "stop" : 1644676217809,
+          "duration" : 494
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#currentAddress\") set value(50324 Margarito Path)",
+          "time" : {
+            "start" : 1644676217315,
+            "stop" : 1644676217809,
+            "duration" : 494
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполняем поле Permanent Address",
+      "time" : {
+        "start" : 1644676217809,
+        "stop" : 1644676218304,
+        "duration" : 495
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#permanentAddress\") set value(87205 Nienow Square)",
+        "time" : {
+          "start" : 1644676217809,
+          "stop" : 1644676218304,
+          "duration" : 495
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#permanentAddress\") set value(87205 Nienow Square)",
+          "time" : {
+            "start" : 1644676217809,
+            "stop" : 1644676218304,
+            "duration" : 495
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправляем значения на форму",
+      "time" : {
+        "start" : 1644676218305,
+        "stop" : 1644676218656,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#submit\") click()",
+        "time" : {
+          "start" : 1644676218305,
+          "stop" : 1644676218656,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#submit\") click()",
+          "time" : {
+            "start" : 1644676218305,
+            "stop" : 1644676218656,
+            "duration" : 351
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем отправленное значение для UserName",
+      "time" : {
+        "start" : 1644676218657,
+        "stop" : 1644676218983,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#name\") should have(text 'Ismael')",
+        "time" : {
+          "start" : 1644676218658,
+          "stop" : 1644676218983,
+          "duration" : 325
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#name\") should have(text 'Ismael')",
+          "time" : {
+            "start" : 1644676218658,
+            "stop" : 1644676218983,
+            "duration" : 325
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем отправленное значение для userEmail",
+      "time" : {
+        "start" : 1644676218984,
+        "stop" : 1644676219305,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") should have(text 'marc.huels@gmail.com')",
+        "time" : {
+          "start" : 1644676218984,
+          "stop" : 1644676219305,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#email\") should have(text 'marc.huels@gmail.com')",
+          "time" : {
+            "start" : 1644676218984,
+            "stop" : 1644676219305,
+            "duration" : 321
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем отправленное значение для currentAddress",
+      "time" : {
+        "start" : 1644676219305,
+        "stop" : 1644676219740,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#output/#currentAddress\") should have(text '50324 Margarito Path')",
+        "time" : {
+          "start" : 1644676219306,
+          "stop" : 1644676219740,
+          "duration" : 434
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#output/#currentAddress\") should have(text '50324 Margarito Path')",
+          "time" : {
+            "start" : 1644676219306,
+            "stop" : 1644676219740,
+            "duration" : 434
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяем отправленное значение для permanentAddress",
+      "time" : {
+        "start" : 1644676219741,
+        "stop" : 1644676220163,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#output/#permanentAddress\") should have(text '87205 Nienow Square')",
+        "time" : {
+          "start" : 1644676219741,
+          "stop" : 1644676220163,
+          "duration" : 422
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#output/#permanentAddress\") should have(text '87205 Nienow Square')",
+          "time" : {
+            "start" : 1644676219741,
+            "stop" : 1644676220163,
+            "duration" : 422
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f9175bb51702b381",
+      "name" : "Last screenshot",
+      "source" : "f9175bb51702b381.png",
+      "type" : "image/png",
+      "size" : 332806
+    }, {
+      "uid" : "face89e53d9202d5",
+      "name" : "Page source",
+      "source" : "face89e53d9202d5.html",
+      "type" : "text/plain",
+      "size" : 41260
+    }, {
+      "uid" : "fed56203a0f88cd4",
+      "name" : "Browser console logs",
+      "source" : "fed56203a0f88cd4.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "28f463b8b05bfc4",
+      "name" : "Video",
+      "source" : "28f463b8b05bfc4.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 30,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:tests.TestTextBox]/[method:fillTextBox()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD72V80"
+  }, {
+    "name" : "thread",
+    "value" : "2060@DESKTOP-CD72V80.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.TestTextBox"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestTextBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillTextBox"
+  }, {
+    "name" : "suite",
+    "value" : "tests.TestTextBox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d271dbef2d91d417",
+      "status" : "broken",
+      "statusDetails" : "Operand stack overflow\nException Details:\n  Location:\n    helpers/Attach.addVideo()Ljava/lang/String; @28: aload_2\n  Reason:\n    Exceeded max stack size.\n  Current Frame:\n    bci: @28\n    flags: { }\n    locals: { 'org/aspectj/lang/JoinPoint', 'java/lang/String', 'java/lang/String' }\n    stack: { 'java/lang/String', 'io/qameta/allure/aspects/AttachmentsAspects', 'org/aspectj/lang/JoinPoint' }\n  Bytecode:\n    0000000: b200 bc01 01b8 00b3 4bb8 0045 b800 48ba\n    0000010: 004c 0000 594c 594d b800 a92a 2cb6 00ad\n    0000020: 2bb0                                   \n",
+      "time" : {
+        "start" : 1644675856817,
+        "stop" : 1644675870133,
+        "duration" : 13316
+      }
+    }, {
+      "uid" : "10bf8cd2c1333d97",
+      "status" : "broken",
+      "statusDetails" : "Operand stack overflow\nException Details:\n  Location:\n    helpers/Attach.addVideo()Ljava/lang/String; @28: aload_2\n  Reason:\n    Exceeded max stack size.\n  Current Frame:\n    bci: @28\n    flags: { }\n    locals: { 'org/aspectj/lang/JoinPoint', 'java/lang/String', 'java/lang/String' }\n    stack: { 'java/lang/String', 'io/qameta/allure/aspects/AttachmentsAspects', 'org/aspectj/lang/JoinPoint' }\n  Bytecode:\n    0000000: b200 bc01 01b8 00b3 4bb8 0045 b800 48ba\n    0000010: 004c 0000 594c 594d b800 a92a 2cb6 00ad\n    0000020: 2bb0                                   \n",
+      "time" : {
+        "start" : 1644675775701,
+        "stop" : 1644675790298,
+        "duration" : 14597
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91fff8f285e130b8.json",
+  "parameterValues" : [ ]
+}
